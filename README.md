@@ -36,6 +36,7 @@ This interface is developed as three nodes that subscribes and publish to differ
 
 Here you can find the corresponding documentation for the controlling nodes and the custom service:
 https://aurorad-hub.github.io/RT1-III_assignment/
+
 https://aurorad-hub.github.io/RT1-III_assignment/
 
 ## Simulation topics used
