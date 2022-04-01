@@ -37,8 +37,6 @@ This interface is developed as three nodes that subscribes and publish to differ
 Here you can find the corresponding documentation for the controlling nodes and the custom service:
 https://aurorad-hub.github.io/RT1-III_assignment/
 
-https://aurorad-hub.github.io/RT1-III_assignment/
-
 ## Simulation topics used
 ### Reach new goal ###
 By publishing in `move_base/goal` topic, the user can give (x,y) position of the target he wants the robot to reach. For this purpouse the user need to access to the following fields of the topic:
