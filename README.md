@@ -65,7 +65,7 @@ This topic type is `actionlib_msgs/GoalID`.
 ### Scan obstacles ###
 By subscribing to the `scan` topic, the node has access to many fields among which `rages` is used to get the information needed: it is an array of 721 elements which contains the distances from the nearest obstacles in a [0 180]° vision range.
 
-This topic type is `sensor_msgs::LaserScan`.
+This topic type is `sensor_msgs/LaserScan`.
 
 ### Velocity ###
 By publishing into the `/cmd_vel` topic, the node can modify its fields:
@@ -74,7 +74,7 @@ By publishing into the `/cmd_vel` topic, the node can modify its fields:
 * *angular*: angular velocity array
   * *z*: direction of the angular velocity 
 
-This topic type is `geometry_msgs::Twist`.
+This topic type is `geometry_msgs/Twist`.
 
 ## Simulation custom service ##
 A custum service `/service` handles communication between all nodes by passing information about:
